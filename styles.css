@@ -1,0 +1,71 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  /* Add Background photo */
+}
+
+/* Navbar Styles */
+
+/* Homepage Styles */
+
+.index-header {
+  text-align: center;
+  width: auto;
+  margin: 90px 90px 10px 90px;
+  font-size: 40px;
+}
+
+.border-width {
+  border: 1px solid rgba(235, 160, 89, 0.4);
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.index-image {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #2b3036;
+}
+
+.company-slogan {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+.mission-state {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.footer {
+  color: #ffffff;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 900px) {
+  .border-width {
+    width: 60%;
+  }
+}
+
+/* Make sure to revisit the browser to see the changes. */
+/* 
+Adding image/video as a background 
+Build out other pages
+*/
